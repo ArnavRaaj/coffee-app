@@ -1,0 +1,13 @@
+.stepper-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.css-m5vj9m-MuiStepper-root{
+    margin-top: 3rem;
+    justify-content: center ;
+    align-items: center;
+}

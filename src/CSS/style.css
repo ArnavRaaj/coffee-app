@@ -1,0 +1,25 @@
+@import url('./header.css');
+@import url('./coffee.css');
+@import url('./counter.css');
+@import url('./final.css');
+@import url('./stepper.css');
+@import url('./coffeePrice.css');
+
+* {
+    padding: 0rem;
+    margin: 0rem;
+}
+
+:root{
+    --bg-pri-clr : #fff;
+    --bg-sec-clr :  #200501;
+    --font-pri-clr: #000;
+    --font-sec-clr: rgb(202, 202, 202);
+    --font-ter-clr: rgb(112, 60, 0);
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: var(--pri-font-clr);
+    background-color: var(--bg-pri-clr);
+}

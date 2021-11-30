@@ -1,0 +1,15 @@
+.final-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.final-name-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

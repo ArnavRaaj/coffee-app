@@ -1,0 +1,25 @@
+.counter-btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.btn-dec, .btn-inc{
+    padding: 1rem;
+    margin: 0.5rem 1rem ;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 1rem 0.5rem rgb(65 81 64 / 40%);
+    border: none;
+    background-color: var(--bg-pri-clr);
+}
+
+.count-value{
+    margin: 0rem 1rem;
+}
+
+.giSpoon{
+    color: var(--bg-sec-clr);
+    transform: rotateY(180deg);
+}

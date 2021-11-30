@@ -1,0 +1,18 @@
+.header-container{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-sec-clr);
+    color: var(--font-sec-clr);
+    min-height: 45vh;
+    justify-content: center ;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url(/src/pictures/patryk-gauza-vs0tzSHVcac-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.header-h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
