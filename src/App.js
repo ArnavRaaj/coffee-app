@@ -9,9 +9,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header />
-        {/* <Container maxWidth="md" sx={{mt:5}}> */}
-          <CustomStepper />
-        {/* </Container>    */}
+        <CustomStepper />
       </div>
     );
   }
